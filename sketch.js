@@ -8,7 +8,7 @@ function draw() {
   } else {
     fill(255);
   }
-  ellipse(mouseX, mouseY, 80, 80);
+  ellipse(mouseX, mouseY, 20, 20);
 }
 
 // makes it so canvas stays the full size of the window
