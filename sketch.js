@@ -1,8 +1,5 @@
-var w = window.innerWidth;
-var h = window.innerHeight;
-
 function setup() {
-  createCanvas(w, h);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
@@ -12,4 +9,9 @@ function draw() {
     fill(255);
   }
   ellipse(mouseX, mouseY, 80, 80);
+}
+
+// makes it so canvas stays the full size of the window
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
