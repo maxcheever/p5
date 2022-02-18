@@ -16,7 +16,7 @@ function draw() {
   fill(240, 70, 255);
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
-  box(45, 45, 45);
+  box(0.25*windowWidth, 0.25*windowWidth, 0.25*windowWidth);
   describe('black canvas with pink cube spinning');
 }
 
