@@ -5,14 +5,13 @@ function setup() {
 // for drawing (with circles)
 function draw() {
   if (mouseIsPressed) {
-    // ellipse(mouseX, mouseY, 80, 80);
+    ellipse(mouseX, mouseY, 80, 80);
     fill (255,0,0);
     noStroke();
   } else {
     fill(0,255,0);
     noStroke();
   }
-  ellipse(mouseX, mouseY, 80, 80);
 }
 
 //// roatating cube (makes my computer sound like it's taking off)
